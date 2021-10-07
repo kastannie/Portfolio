@@ -19,25 +19,29 @@ img {
   height: auto;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 p {
-    font-family: Cabin Regular;
-    font-size: 16px;
+  font-family: Cabin Regular;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
   font-size: 18px;
   font-family: Cabin Regular;
+  color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.header {
+  background-color: #273e52;
+  padding: 15px 0;
 }
 
-li {
-  display: inline;
+.header__container {
+    
 }
-
-
