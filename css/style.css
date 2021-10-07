@@ -32,22 +32,67 @@ img {
 
 .header__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .navigation {
-    column-gap: 80px;
-    display: flex;
-    list-style: none;
+  column-gap: 80px;
+  display: flex;
+  list-style: none;
 }
 
 .navigation a {
-    color: white;
-    text-decoration: none;
-    font-family: Cabin Regular;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: Cabin Regular;
+  font-size: 18px;
 }
 
 .navigation a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.navigation__button {
+  background-color: #273e52; 
+  border: 0;
+  display: none;
+  justify-content: space-around;
+  width: 40px;
+  padding: 2px;
+  height: 40px;
+}
+
+.navigation__button__line {
+  background-color: white;
+  height: 4px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    display: none;
+    flex-direction: column;
+    padding: 14px 0;
+    width: 100%;
+  }
+
+  .navigation--open {
+    display: flex;
+  }
+
+  .navigation a {
+    border-bottom: 1px solid white;
+    display: block;
+    padding: 14px 0;
+  }
+
+  .navigation li:last-child a{
+    border-bottom: 0;
+  }
+
+  .navigation__button {
+    display: flex;
+    flex-direction: column;
+  }
 }
