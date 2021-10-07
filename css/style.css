@@ -25,23 +25,29 @@ img {
   max-width: 1200px;
 }
 
-p {
-  font-family: Cabin Regular;
-  font-size: 16px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: Cabin Regular;
-  color: white;
-}
-
 .header {
   background-color: #273e52;
-  padding: 15px 0;
+  padding: 8px 0;
 }
 
 .header__container {
-    
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+    column-gap: 80px;
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-family: Cabin Regular;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
