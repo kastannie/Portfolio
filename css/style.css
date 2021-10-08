@@ -83,6 +83,7 @@ img {
 
 .footer {
   display: flex;
+  padding: 8px 0;
 }
 
 .left-text {
