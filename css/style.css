@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  background-color: #01151D;
 }
 
 img {
@@ -26,7 +27,7 @@ img {
 }
 
 .header {
-  background-color: #273e52;
+  background-color: #002534;
   padding: 8px 0;
 }
 
