@@ -30,6 +30,7 @@ img {
 .header {
   background-color: #002534;
   padding: 8px 0;
+  box-shadow : 0 8px 12px -1px rgba(0, 0, 0, 0.5) ;
 }
 
 .header__container {
