@@ -30,7 +30,7 @@ img {
 .header {
   background-color: #002534;
   padding: 8px 0;
-  box-shadow : 0 8px 12px -1px rgba(0, 0, 0, 0.5) ;
+  box-shadow: 0 8px 12px -1px rgba(0, 0, 0, 0.5);
 }
 
 .header__container {
@@ -75,6 +75,28 @@ img {
   background-color: white;
   height: 4px;
   width: 100%;
+}
+
+.block {
+  height: 580px;
+}
+
+.footer {
+  display: flex;
+}
+
+.left-text {
+  float: left;
+  text-align: left;
+  color: white;
+}
+
+
+
+.right-text {
+  float: right;
+  text-align: right;
+  color: white;
 }
 
 @media (max-width: 500px) {
