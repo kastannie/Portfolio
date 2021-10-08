@@ -78,7 +78,7 @@ img {
 }
 
 .block {
-  height: 580px;
+  height: 572px;
 }
 
 .footer {
@@ -90,7 +90,7 @@ img {
   float: left;
   text-align: left;
   color: white;
-  font-size: 14px
+  font-size: 14px;
 }
 
 .social {
@@ -109,7 +109,7 @@ img {
   float: right;
   text-align: right;
   color: white;
-  font-size: 14px
+  font-size: 14px;
 }
 
 @media (max-width: 500px) {
