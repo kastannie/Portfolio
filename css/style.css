@@ -102,6 +102,11 @@ img {
   border: 1px solid #fff;
 }
 
+.social:hover {
+  background-color: #009bdd;
+  border-color: #009bdd;
+}
+
 .icon {
   text-align: center;
 }
