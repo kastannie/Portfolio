@@ -57,7 +57,7 @@ img {
 }
 
 .navigation a:hover {
-  text-decoration: underline #009bdd;
+  color: #009bdd;
 }
 
 .navigation__button {
