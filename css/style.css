@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   position: relative;
@@ -140,18 +144,14 @@ p {
 }
 
 .block1 {
-  height: 500px;
-  background-color: red;
+  height: 800px;
+  padding: 5vh 20vh;
 }
 
-.block2 {
-  height: 500px;
-  background-color: blue;
-}
-
-.block3 {
-  height: 500px;
-  background-color: orange;
+.go-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
 }
 
 .footer {
@@ -190,6 +190,22 @@ p {
   text-align: right;
   color: white;
   font-size: 14px;
+}
+
+#Vlammen {
+  animation: vlamAnimatie 2s infinite;
+}
+
+@keyframes vlamAnimatie {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
 }
 
 @media (max-width: 500px) {
