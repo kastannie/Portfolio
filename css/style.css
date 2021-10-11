@@ -148,16 +148,6 @@ p {
   width: 100%;
 }
 
-.margin {
-  margin-right: 100px;
-  width: 100%;
-}
-
-.papa {
-  margin-top: 100px;
-  width: 100%;
-}
-
 .go-to-top {
   position: fixed;
   right: 20px;
@@ -168,6 +158,21 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+}
+
+.margin2 {
+  margin-top: 30px;
+}
+
+.margin3 {
+  margin-top: 20px;
+}
+
+button {
+  background-color:#009bdd;
+  color: white;
+  padding: 20px;
+  width: 100%;
 }
 
 .contact-tekst {
