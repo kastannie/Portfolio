@@ -111,6 +111,27 @@ img {
   width: 100%;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 80vh 80vh 80vh;
+}
+
+.block1 {
+  height: 500px;
+  background-color: red;
+}
+
+.block2 {
+  height: 500px;
+  background-color: blue;
+}
+
+.block3 {
+  height: 500px;
+  background-color: orange;
+}
+
 .footer {
   display: flex;
   padding: 8px 0;
