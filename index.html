@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -30,7 +34,17 @@
       </nav>
     </header>
 
-    <div class="block"></div>
+    <div class="swiper mySwiper slide-body">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/Werk1.JPG"></div>
+        <div class="swiper-slide"><img src="img/Werk3.JPG"></div>
+        <div class="swiper-slide"><img src="img/Werk4.jpg"></div>
+        <div class="swiper-slide"><img src="img/Werk5.jpg"></div>
+        <div class="swiper-slide"><img src="img/Werk6.jpg"></div>
+        <div class="swiper-slide"><img src="img/Werk7.jpg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
 
     <footer class="footer">
       <div class="container icon">
@@ -43,5 +57,28 @@
     </footer>
 
     <script src="scripts/script.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      });
+    </script>
   </body>
 </html>
