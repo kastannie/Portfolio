@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 79vh;
+  height: 55vh;
   background-color: #061925;
 }
 
@@ -42,7 +42,7 @@ img {
 }
 
 .container2 {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -99,8 +99,8 @@ img {
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .swiper-slide {
@@ -121,6 +121,7 @@ h1 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: white;
+  margin-top: 40px;
 }
 
 p {
