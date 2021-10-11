@@ -140,12 +140,19 @@ p {
 .grid {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 80vh 80vh 80vh;
+  grid-template-rows: 60vh 60vh 60vh;
 }
 
 .block1 {
-  height: 800px;
-  padding: 5vh 20vh;
+  display: flex;
+}
+
+.margin {
+  margin-right: 100px;
+}
+
+.papa{
+  margin-top: 100px;
 }
 
 .go-to-top {
@@ -192,7 +199,7 @@ p {
   font-size: 14px;
 }
 
-#Vlammen {
+.go-to-top:hover #Vlammen {
   animation: vlamAnimatie 2s infinite;
 }
 
