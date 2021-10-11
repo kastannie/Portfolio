@@ -98,11 +98,10 @@ img {
 }
 
 .swiper-slide {
-  margin-top: 80px;
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 200px;
+  height: 220px;
   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006)
 }
 
@@ -111,6 +110,11 @@ img {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
 .grid {
   display: grid;
   grid-template-columns: 100vw;
