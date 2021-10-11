@@ -128,6 +128,7 @@ p {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: white;
+  font-size: 14px;
 }
 
 .grid {
@@ -214,5 +215,11 @@ p {
   .navigation__button {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .container2 {
+    width: 90%;
   }
 }
