@@ -221,6 +221,10 @@ label {
 
 .left-text {
   float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: white;
+  font-size: 14px;
 }
 
 h2{
