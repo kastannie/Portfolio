@@ -49,6 +49,7 @@ img {
   width: 50%;
   margin: 0 auto;
   max-width: 1200px;
+  text-align: center;
 }
 
 .header {
@@ -124,14 +125,13 @@ img {
 h1 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color:white;
+  color: white;
   margin-top: 40px;
   padding-bottom: 10px;
   border-bottom: 1px solid #009bdd;
 }
 
 p {
-  text-align: center;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-size: 14px;
@@ -153,7 +153,7 @@ p {
   width: 100%;
 }
 
-.papa{
+.papa {
   margin-top: 100px;
   width: 100%;
 }
@@ -171,31 +171,34 @@ p {
 }
 
 .contact-tekst {
+  margin-top: 30px;
   grid-column: 1/2;
-  width: 40%;
+  width: 60%;
   text-align: left;
 }
 
 .form {
   grid-column: 2/3;
   margin-top: 50px;
-  height:72vh;
+  height: 72vh;
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type="submit"] {
   background-color: #009bdd;
   color: white;
   padding: 12px 20px;
@@ -205,14 +208,20 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color:#016996;
+input[type="submit"]:hover {
+  background-color: #016996;
 }
 
 label {
   color: white;
   font-size: 16px;
 }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 
 .footer {
   display: flex;
@@ -226,13 +235,6 @@ label {
   color: white;
   font-size: 14px;
 }
-
-h2{
-font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: white;
-}
-
 .social {
   width: 40px;
   height: 40px;
