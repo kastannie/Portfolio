@@ -195,15 +195,19 @@ button:hover {
 }
 
 .contact-tekst2 {
+  float: left;
   grid-column: 1/2;
   margin-top: 50px;
   margin-bottom: 50px;
+  max-width: 90%;
 }
 
 .form2 {
+  float: right;
   grid-column: 2/3;
   margin-top: 50px;
   margin-bottom: 50px;
+  max-width: 90%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
