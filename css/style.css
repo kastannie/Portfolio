@@ -319,3 +319,9 @@ h2 {
     width: 90%;
   }
 }
+
+@media (max-width: 600px) {
+  svg {
+    width: 50px;
+  }
+}
