@@ -475,6 +475,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 @media (max-width: 600px) {
   iframe {
-    height: 300px;
+    height: 280px;
   }
 }
