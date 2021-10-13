@@ -478,3 +478,25 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     height: 280px;
   }
 }
+
+@media (max-width: 500px) {
+  .grid2 {
+    display: block;
+    margin-bottom: 50px;
+  }
+  
+  .contact-tekst {
+    width: 100%;
+  }
+
+  .contact-tekst p {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 340px) {
+  .social{
+    display: none;
+  }
+}
