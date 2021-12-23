@@ -262,7 +262,7 @@ h2 {
 }
 
 #fcf-form {
-  display:block;
+  display: block;
 }
 
 .fcf-body {
@@ -317,7 +317,8 @@ h2 {
   border: 1px solid #313131;
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
   height: auto;
 }
 
@@ -364,12 +365,13 @@ label.fcf-label {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .fcf-btn {
-      transition: none;
+    transition: none;
   }
 }
 
@@ -378,7 +380,8 @@ label.fcf-label {
   text-decoration: none;
 }
 
-.fcf-btn:focus, .fcf-btn.focus {
+.fcf-btn:focus,
+.fcf-btn.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -395,14 +398,16 @@ label.fcf-label {
   border-color: #0062cc;
 }
 
-.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg > .fcf-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -414,14 +419,15 @@ label.fcf-label {
   width: 100%;
 }
 
-.fcf-btn-block+.fcf-btn-block {
+.fcf-btn-block + .fcf-btn-block {
   margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
   width: 100%;
 }
-
 
 @keyframes vlamAnimatie {
   0% {
@@ -486,7 +492,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     display: block;
     margin-bottom: 50px;
   }
-  
+
   .contact-tekst {
     width: 100%;
   }
@@ -498,7 +504,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 @media (max-width: 340px) {
-  .social{
+  .social {
     display: none;
   }
 }
