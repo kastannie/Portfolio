@@ -99,6 +99,7 @@ img {
 .navigation__button__line {
   background-color: white;
   transition: 0.4s;
+  transform-origin: left;
   height: 4px;
   width: 100%;
 }
@@ -109,7 +110,6 @@ img {
 
 .navigation__button--open .navigation__button__line {
   transform: rotate(35deg) translate(0, 5px);
-  transform-origin: left;
 }
 
 .navigation__button--open .navigation__button__line:last-child {
