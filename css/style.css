@@ -98,8 +98,22 @@ img {
 
 .navigation__button__line {
   background-color: white;
+  transition: 0.4s;
   height: 4px;
   width: 100%;
+}
+
+.navigation__button--open .navigation__button__line:nth-child(2) {
+  opacity: 0;
+}
+
+.navigation__button--open .navigation__button__line {
+  transform: rotate(35deg) translate(0, 5px);
+  transform-origin: left;
+}
+
+.navigation__button--open .navigation__button__line:last-child {
+  transform: rotate(-35deg) translate(-3px);
 }
 
 .swiper {
@@ -175,10 +189,6 @@ button {
   font-family: "Open Sans", sans-serif;
   color: white;
   font-size: 18px;
-}
-
-button:hover {
-  background-color: #016996;
 }
 
 .contact-tekst {
