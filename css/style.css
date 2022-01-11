@@ -179,7 +179,7 @@ p {
 }
 
 button {
-  background-color: #009bdd;
+  background-color: #278ACB;
   padding: 20px;
   width: 100%;
   font-family: "Open Sans", sans-serif;
@@ -197,7 +197,8 @@ button {
 .form {
   grid-column: 2/3;
   margin-top: 50px;
-  height: 72vh;
+  margin-bottom: 50px;
+  height: auto;
 }
 
 .contact-tekst2 {
@@ -216,7 +217,7 @@ button {
 }
 
 iframe {
-  height: 385px;
+  height: 365px;
 }
 
 h2 {
@@ -229,8 +230,7 @@ h2 {
 .footer {
   background-color: black;
   display: flex;
-  padding: 8px 0;
-  margin: 0 auto;
+  padding: 20px 0;
 }
 
 .left-text {
@@ -462,7 +462,7 @@ input[type="button"].fcf-btn-block {
   }
 
   .navigation a {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid #278ACB;
     display: block;
     padding: 14px 0;
   }
