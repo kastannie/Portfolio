@@ -64,10 +64,6 @@ img {
   justify-content: space-between;
 }
 
-.logo {
-  margin-top: 6px;
-}
-
 .navigation {
   column-gap: 80px;
   display: flex;
