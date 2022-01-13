@@ -423,7 +423,6 @@ label.fcf-label {
   display: block;
 }
 
-
 @media (prefers-reduced-motion: reduce) {
   .fcf-btn {
     transition: none;
