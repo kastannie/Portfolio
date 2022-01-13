@@ -227,44 +227,6 @@ h2 {
   padding-bottom: 20px;
 }
 
-.footer {
-  background-color: #111110;
-  display: flex;
-  padding: 20px 0;
-}
-
-.left-text {
-  float: left;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  color: #efefef;
-  font-size: 14px;
-}
-.social {
-  margin-top: 10px;
-  width: 40px;
-  background-color: #efefef;
-  border-radius: 50%;
-  border: 2px solid #efefef;
-}
-
-.social:hover {
-  background-color: #278acb;
-  border-color: #278acb;
-}
-
-.icon {
-  text-align: center;
-}
-
-.right-text {
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  color: #efefef;
-  font-size: 14px;
-}
-
 .go-to-top:hover #Vlammen {
   animation: vlamAnimatie 2s infinite;
 }
@@ -377,6 +339,14 @@ label.fcf-label {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.go-to-top:hover #Vlammen {
+  animation: vlamAnimatie 2s infinite;
+}
+
+#fcf-form {
+  display: block;
+}
+
 .footer {
   background-color: #111110;
   display: flex;
@@ -413,14 +383,6 @@ label.fcf-label {
   text-align: right;
   color: #efefef;
   font-size: 14px;
-}
-
-.go-to-top:hover #Vlammen {
-  animation: vlamAnimatie 2s infinite;
-}
-
-#fcf-form {
-  display: block;
 }
 
 @media (prefers-reduced-motion: reduce) {
