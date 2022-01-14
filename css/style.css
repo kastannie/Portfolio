@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 52vh;
+  height: 100vh;
   background-color: #efefef;
 }
 
