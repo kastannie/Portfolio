@@ -34,6 +34,7 @@ body {
   align-items: center;
   min-height: 52vh;
   background-color: #efefef;
+  width: 100%;
 }
 
 img {
@@ -139,7 +140,6 @@ h1 {
   color: #278acb;
   margin-top: 40px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #111110;
 }
 
 p {
@@ -218,14 +218,13 @@ button {
 }
 
 iframe {
-  height: 365px;
+  min-height: 52vh;
 }
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #278acb;
-  border-bottom: 2px solid #111110;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .go-to-top:hover #Vlammen {
