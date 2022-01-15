@@ -357,7 +357,7 @@ label.fcf-label {
 .left-text {
   float: left;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  text-align: center;
   color: #efefef;
   font-size: 14px;
 }
@@ -381,7 +381,7 @@ label.fcf-label {
 .right-text {
   float: right;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
+  text-align: center;
   color: #efefef;
   font-size: 14px;
 }
