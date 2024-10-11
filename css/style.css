@@ -1,7 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
@@ -10,6 +6,7 @@ html {
 
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 html,
